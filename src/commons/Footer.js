@@ -25,7 +25,7 @@ justify-content: space-between;
 align-items: center;
 position: relative;
 background: #B469EB;
-border-top: 1px solid #0D1C29;
+border-top: 0.1rem solid #0D1C29;
 width: auto;
 margin: 0;
 padding: 1rem 1.5rem;

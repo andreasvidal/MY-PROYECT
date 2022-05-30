@@ -28,7 +28,7 @@ background: linear-gradient(168.55deg, #0D1C29 8.85%, #B469EB 42.19%, #8046A5 67
 `
 
  const P = styled.p`
- display: flex;
+display: flex;
 flex-direction: column;
 align-items: center;
 text-align: center;
