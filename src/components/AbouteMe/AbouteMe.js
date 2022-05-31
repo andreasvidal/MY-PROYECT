@@ -1,8 +1,9 @@
 import {Titlecommons} from "../../commons/Title";
 import { FooterCommons } from "../../commons/Footer";
 import { AiOutlineRollback } from "react-icons/ai";
+import { IoIosRocket, IoMdFingerPrint } from "react-icons/io";
 import MyCv from "../../assets/cv.png"
-import Monster from "../../assets/monster.png"
+//import Monster from "../../assets/monster.png"
 import { Link } from "react-router-dom";
 import styled from 'styled-components';
 
@@ -11,9 +12,9 @@ export const AboutMe = () => {
     <Main>
         <Titlecommons/>
         <Link to="/" ><PTitle>ABOUTE ME<IconsBack><AiOutlineRollback></AiOutlineRollback></IconsBack></PTitle></Link>
-        <H2>Hola mi nombre es Andrea! Estoy comenzando es este mundo espacial del desalloro, para mi al comienzo era un lenguaje llegado desde otro planeta, pero con la constancia y ganas de aprender he podido ir traduciendo a mi propio lenguaje. Comenzando este viaje sin fin por el universo de la programación!</H2>
+        <H2><IoIosRocket/>Hola mi nombre es Andrea! <br/>Estoy comenzando es este mundo espacial del desalloro, para mi al principio era un lenguaje llegado desde otro planeta, pero con la constancia y ganas de aprender he podido ir traduciendo a mi propio lenguaje. Iniciando este viaje sin fin por el universo de la programación!</H2>
         <DivImg>
-        <ImgAboutMe src={Monster} alt="ilustrasión monstruo"  />
+        <ImgAboutMe><IoMdFingerPrint/></ImgAboutMe>
         <ImgCv src={MyCv} alt="foto mi cv"/>
         </DivImg>
         <FooterCommons/>
@@ -26,7 +27,7 @@ padding: 0;
 margin: 0;
 outline: none;
 box-sizing: border-box;
-background: linear-gradient(168.55deg, #0D1C29 8.85%, #B469EB 42.19%, #8046A5 67.19%, #6E0F3C 93.75%);
+background: linear-gradient(168.55deg, #0D1C29 8.85%, #B469EB 42.19%, #8046A5 67.19%, #0D1C29 93.75%);
 `;
 
 const H2 = styled.h2`
@@ -40,9 +41,9 @@ display: flex;
 flex-direction: column;
 align-items: center;
 text-align: center;
-background: rgba(180, 105, 235, 0.03);
-box-shadow: 0px 4px 40.57px rgba(0, 0, 0, 0.19);
-backdrop-filter: blur(90px);
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+background: linear-gradient(180deg, rgba(180, 105, 235, 0.9) 0%, rgba(110, 72, 153, 0.9) 52.08%, rgba(13, 28, 41, 0.468) 100%);
+color: #0D1C29;
 `
 
 const PTitle = styled.p`
@@ -88,7 +89,7 @@ border-top: 0.3rem outset #0d1c2930;
 `
 
 const ImgCv = styled.img`
-width: 50%;
+width: 60%;
 margin: 2.5rem;
 border-right: 0.3rem outset #0d1c2930;
 border-bottom: 0.3rem outset #0d1c2930;
@@ -101,7 +102,10 @@ height: 1em;
 width: 1em;
 padding: 1.5rem;
 `
-const ImgAboutMe = styled.img`
-width: 30%;
-margin-bottom: 10rem
+const ImgAboutMe = styled.i`
+font-size: 5rem;
+margin: 2rem 10rem;
+padding: 0.5rem;
+border-radius: 50%;
+background: linear-gradient(180deg, rgba(180, 105, 235, 0.9) 0%, rgba(110, 72, 153, 0.9) 52.08%, rgba(13, 28, 41, 0.468) 100%);
 `

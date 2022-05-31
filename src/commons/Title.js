@@ -16,6 +16,8 @@ color: #B469EB;
 margin: auto 25%;
 padding: 2rem;
 background: rgba(180, 105, 235, 0.03);
-box-shadow: 0px 3px 20px #B469EB;
-backdrop-filter: blur(90px)
+box-shadow: 0px 3px 15px #B469EB;
+backdrop-filter: blur(90px);
+animation: bounce;
+animate__fadeInDownBig: 2seg;
  `;
