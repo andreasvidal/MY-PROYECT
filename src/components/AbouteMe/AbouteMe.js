@@ -2,7 +2,6 @@ import {Titlecommons} from "../../commons/Title";
 import { FooterCommons } from "../../commons/Footer";
 import { AiOutlineRollback } from "react-icons/ai";
 import { IoIosRocket, IoMdFingerPrint } from "react-icons/io";
-import MyCv from "../../assets/cv.png"
 //import Monster from "../../assets/monster.png"
 import { Link } from "react-router-dom";
 import styled from 'styled-components';
@@ -15,7 +14,7 @@ export const AboutMe = () => {
         <H2><IoIosRocket/>Hola mi nombre es Andrea! <br/>Estoy comenzando es este mundo espacial del desalloro, para mi al principio era un lenguaje llegado desde otro planeta, pero con la constancia y ganas de aprender he podido ir traduciendo a mi propio lenguaje. Iniciando este viaje sin fin por el universo de la programación!</H2>
         <DivImg>
         <ImgAboutMe><IoMdFingerPrint/></ImgAboutMe>
-        <ImgCv src={MyCv} alt="foto mi cv"/>
+        <ImgCv href="https://drive.google.com/file/d/1CLqLdjQVtuCPdz81Z1PcR_iiEAHKsOsV/view?usp=sharing" target="_blank">Descargar CV</ImgCv>
         </DivImg>
         <FooterCommons/>
     </Main>
@@ -32,7 +31,7 @@ background: linear-gradient(168.55deg, #0D1C29 8.85%, #B469EB 42.19%, #8046A5 67
 
 const H2 = styled.h2`
 font-family: 'Anonymous Pro';
-font-style: normal;
+font-style: bold;
 font-size: 2.5vh;
 line-height: 1.2rem;
 margin: 1rem 15%;
@@ -66,17 +65,6 @@ padding: 0 1.5rem;
    transform: scale(1.15);
 }
 `
-/*const ContH2 = styled.div`
-background: rgba(180, 105, 235, 0.03);
-box-shadow: 0px 4px 40.57px rgba(0, 0, 0, 0.19);
-backdrop-filter: blur(90px);
-display: flex;
-align-items: center;
-text-align: center;
-width: 20rem;
-height: 17.5rem;
-margin: 2rem;
-`*/
 
 const DivImg = styled.div`
 display: flex;
@@ -88,11 +76,18 @@ justify-content: space-between;
 border-top: 0.3rem outset #0d1c2930;
 `
 
-const ImgCv = styled.img`
-width: 60%;
-margin: 2.5rem;
-border-right: 0.3rem outset #0d1c2930;
-border-bottom: 0.3rem outset #0d1c2930;
+const ImgCv = styled.a`
+background-color: transparent;
+padding: 0.5rem 1rem;
+border: solid 0.3rem #0D1C29;;
+text-decoration: none;
+color: #0D1C29;
+text-transform: uppercase;
+&:hover {
+   transition: 1s;
+   cursor: pointer;
+   transform: scale(1.15);
+}
 `
 
 const IconsBack = styled.i`
@@ -108,4 +103,15 @@ margin: 2rem 10rem;
 padding: 0.5rem;
 border-radius: 50%;
 background: linear-gradient(180deg, rgba(180, 105, 235, 0.9) 0%, rgba(110, 72, 153, 0.9) 52.08%, rgba(13, 28, 41, 0.468) 100%);
+animation-name:rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+&:after transform:rotate(-57deg);
+&:before transform:rotate(57deg);
+ @keyframes rotate{
+    100%{
+    transform:rotate(360deg);
+    }
+}
 `

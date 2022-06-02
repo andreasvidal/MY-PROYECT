@@ -36,7 +36,7 @@ left: 20px;
 color: #B469EB;
 text-decoration: none;
 font-family: 'Anonymous Pro';
-margin: 2rem 25%;
+margin: 2.5rem 25%;
 padding: 1.5rem;
 background: #0D1C29;
 box-shadow: 0px 30px 12px rgba(0, 0, 0, 0.01), 0px 28px 11px rgba(0, 0, 0, 0.07), 0px 16px 9px rgba(0, 0, 0, 0.25), 0px 7px 7px rgba(0, 0, 0, 0.43), 0px 2px 4px rgba(0, 0, 0, 0.49), 0px 0px 0px rgba(0, 0, 0, 0.5);
@@ -56,4 +56,15 @@ align-items: center;
 padding:1.5rem;
  width:4.375rem;
  margin: auto;
+ animation-name:rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+&:after transform:rotate(-57deg);
+&:before transform:rotate(57deg);
+ @keyframes rotate{
+    100%{
+    transform:rotate(360deg);
+    }
+}
  `

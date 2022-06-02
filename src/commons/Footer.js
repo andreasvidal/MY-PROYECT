@@ -9,8 +9,8 @@ export const FooterCommons = () => {
         <Logo src={logo} alt="logo-footer" />
         </div>
         <IconsContainer>
-            <Icons><IoLogoGithub/></Icons>
-            <Icons><IoLogoLinkedin/></Icons>
+            <Icons><a href="https://github.com/andreasvidal" target="_blank"></a><IoLogoGithub></IoLogoGithub></Icons>
+            <Icons><a href="https://www.linkedin.com/in/m-andrea-salas" target="_blank"></a><IoLogoLinkedin/></Icons>
             <Icons><IoLogoWhatsapp/></Icons>
         </IconsContainer>
         </Footer>
@@ -32,9 +32,20 @@ padding: 1rem 1.5rem;
  `;
 
  const Logo = styled.img`
- width: 3rem;
+ width: 3.5rem;
  border-radius: 50%;
- padding: 1rem
+ padding: 1rem;
+ animation-name:rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+&:after transform:rotate(-57deg);
+&:before transform:rotate(57deg);
+ @keyframes rotate{
+    100%{
+    transform:rotate(360deg);
+    }
+}
   `;
 
 const Icons = styled.i`

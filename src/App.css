@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anonymous Pro';
+    font-weight: 400;
+}
+
+html {
+    scroll-behavior: smooth;
+}

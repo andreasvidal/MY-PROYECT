@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import {Home} from "./components/Home";
 import {AboutMe} from "./components/AbouteMe/AbouteMe"
 import {Proyects} from "./components/proyects/Proyects"
+import "./App.css"
 
 const App = () => {
   return (
