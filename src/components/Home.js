@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import {FooterCommons} from "../commons/Footer"
 import {Titlecommons} from "../commons/Title"
 
+
 export const Home = () => {
     return (
     <Main>
@@ -36,6 +37,7 @@ left: 20px;
 color: #B469EB;
 text-decoration: none;
 font-family: 'Anonymous Pro';
+font-style: bold;
 margin: 2.5rem 25%;
 padding: 1.5rem;
 background: #0D1C29;

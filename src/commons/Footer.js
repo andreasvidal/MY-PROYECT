@@ -9,9 +9,19 @@ export const FooterCommons = () => {
         <Logo src={logo} alt="logo-footer" />
         </div>
         <IconsContainer>
-            <Icons><a href="https://github.com/andreasvidal" target="_blank"></a><IoLogoGithub></IoLogoGithub></Icons>
-            <Icons><a href="https://www.linkedin.com/in/m-andrea-salas" target="_blank"></a><IoLogoLinkedin/></Icons>
-            <Icons><IoLogoWhatsapp/></Icons>
+            <Icons>
+                <AnIcon href="https://github.com/andreasvidal" target="_blank">
+                <IoLogoGithub/>
+                </AnIcon>
+            </Icons>
+            <Icons>
+                <AnIcon href="https://www.linkedin.com/in/m-andrea-salas" target="_blank">
+                <IoLogoLinkedin/>
+                </AnIcon>
+                </Icons>
+            <Icons>
+                <AnIcon><IoLogoWhatsapp/></AnIcon>
+            </Icons>
         </IconsContainer>
         </Footer>
     )
@@ -29,12 +39,13 @@ border-top: 0.1rem solid #0D1C29;
 width: auto;
 margin: 0;
 padding: 1rem 1.5rem;
+
  `;
 
  const Logo = styled.img`
  width: 3.5rem;
+ border: 0.3rem outset #0d1c2930;
  border-radius: 50%;
- padding: 1rem;
  animation-name:rotate;
     animation-duration: 5s;
     animation-iteration-count: infinite;
@@ -46,22 +57,24 @@ padding: 1rem 1.5rem;
     transform:rotate(360deg);
     }
 }
-  `;
+`;
 
-const Icons = styled.i`
+const AnIcon = styled.a`
 font-size: 2.125rem;
 color: #0D1C29;
 padding: 1rem;
-&:hover {
-    transition: 1s;
-    cursor: pointer;
-    transform: scale(1.15);
-
-}
 `;
 
 const IconsContainer = styled.div`
 display: flex;
 align-content: center;
 margin: 0;
+`
+const Icons = styled.div`
+color: #0D1C29;
+&:hover {
+    transition: 1s;
+    cursor: pointer;
+    transform: scale(1.15);
+}
 `

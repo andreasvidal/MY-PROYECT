@@ -12,7 +12,7 @@ export const Proyects = () => {
     <Main>
         <Titlecommons/>
         <Link to="/" ><PTitle>PROYECTS<IconsBack><AiOutlineRollback></AiOutlineRollback></IconsBack></PTitle></Link>
-        <H2>Estos fueron mis desafíos realizados en mi paso por un hermoso proyecto llamado <span>Laboratoria</span>, luego de 6 meses de trabajo simulando un ambiente de trabajo real. Estos son mis 1eras experiencias desallorando aplicaciones que debian cumplir con ciertos estandares para realizar la entrega y revisión, en cada uno aprendi y aplique diferentes objetivos de aprendizaje.</H2>
+        <H2>Estos fueron mis desafíos realizados en mi paso por un hermoso proyecto llamado Laboratoria, luego de 6 meses de trabajo simulando un ambiente de trabajo real. Estos son mis 1eras experiencias desallorando aplicaciones que debian cumplir con ciertos estandares para realizar la entrega y revisión, en cada uno aprendi y aplique diferentes objetivos de aprendizaje.</H2>
         <DivSkill>
             <Skills/>
         </DivSkill>

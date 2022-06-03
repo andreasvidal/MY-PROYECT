@@ -1,154 +1,142 @@
-import Rymt1 from "../../assets/rym/rymt2.jpg";
+import Rymt1 from "../../assets/rym/rymt1.jpg";
 import styled from "styled-components";
-
+import CardValidation from "../../assets/cardv/refuge.jpg";
+import SocialNet from "../../assets/rs/social-net.png"
+import BurgerQ from "../../assets/bq/burger-queen.png"
 export const ShowProyects = () => {
   return (
       <main>
-      <H2Proyects>!PROYECTS!</H2Proyects>
-    <ContainerProyect>
-    <Proyect>
-      <ContainerImg>
-        <a
-          href="https://scl-019-card-validation-tau.vercel.app/src/index.html"
-          target="_blank"
-        ></a>
-        <img src={Rymt1} alt="img proyecto rym" />
-        <H3Proyects>Card Validation </H3Proyects>
-        <Description>
-          En este proyectose trata de construir una aplicación web que permita a
-          un usuario validar el número de una tarjeta de crédito. Además,
-          tendrás implementar funcionalidad para ocultar todos los dígitos de
-          una tarjeta menos los últimos cuatro. La temática es libre. Debes
-          pensar en qué situaciones de la vida real se necesitaría validar una
-          tarjeta de crédito y pensar en cómo debe ser esa experiencia de uso
-          (qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc.
-          Aprender a construir una aplicación web que interactuará con l@s
-          usuari@ final a través del navegador, utilizando HTML, CSS y
-          JavaScript como tecnologías.
-        </Description>
-      </ContainerImg>
-      <ContainerImg>
-        <a
-          href="https://scl-019-card-validation-tau.vercel.app/src/index.html"
-          target="_blank"
-        ></a>
-        <img src={Rymt1} alt="img proyecto rym" />
-        <H3Proyects>Data Lovers </H3Proyects>
-        <Description>
-          En este proyectose trata de construir una aplicación web que permita a
-          un usuario validar el número de una tarjeta de crédito. Además,
-          tendrás implementar funcionalidad para ocultar todos los dígitos de
-          una tarjeta menos los últimos cuatro. La temática es libre. Debes
-          pensar en qué situaciones de la vida real se necesitaría validar una
-          tarjeta de crédito y pensar en cómo debe ser esa experiencia de uso
-          (qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc.
-          Aprender a construir una aplicación web que interactuará con l@s
-          usuari@ final a través del navegador, utilizando HTML, CSS y
-          JavaScript como tecnologías.
-        </Description>
-      </ContainerImg>
-      <ContainerImg>
-        <a
-          href="https://scl-019-card-validation-tau.vercel.app/src/index.html"
-          target="_blank"
-        ></a>
-        <img src={Rymt1} alt="img proyecto rym" />
-        <H3Proyects>Social Network </H3Proyects>
-        <Description>
-          En este proyectose trata de construir una aplicación web que permita a
-          un usuario validar el número de una tarjeta de crédito. Además,
-          tendrás implementar funcionalidad para ocultar todos los dígitos de
-          una tarjeta menos los últimos cuatro. La temática es libre. Debes
-          pensar en qué situaciones de la vida real se necesitaría validar una
-          tarjeta de crédito y pensar en cómo debe ser esa experiencia de uso
-          (qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc.
-          Aprender a construir una aplicación web que interactuará con l@s
-          usuari@ final a través del navegador, utilizando HTML, CSS y
-          JavaScript como tecnologías.
-        </Description>
-      </ContainerImg>
-      <ContainerImg>
-        <a
-          href="https://scl-019-card-validation-tau.vercel.app/src/index.html"
-          target="_blank"
-        ></a>
-        <img src={Rymt1} alt="img proyecto rym" />
-        <H3Proyects>Buger Queen </H3Proyects>
-        <Description>
-          En este proyectose trata de construir una aplicación web que permita a
-          un usuario validar el número de una tarjeta de crédito. Además,
-          tendrás implementar funcionalidad para ocultar todos los dígitos de
-          una tarjeta menos los últimos cuatro. La temática es libre. Debes
-          pensar en qué situaciones de la vida real se necesitaría validar una
-          tarjeta de crédito y pensar en cómo debe ser esa experiencia de uso
-          (qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc.
-          Aprender a construir una aplicación web que interactuará con l@s
-          usuari@ final a través del navegador, utilizando HTML, CSS y
-          JavaScript como tecnologías.
-        </Description>
-      </ContainerImg>
-      </Proyect>
-    </ContainerProyect>
-    </main>
+          <H2Proyects>PROYECTS</H2Proyects>
+            <ContainerProyect>
+                <Proyect>
+                    <AncProyect 
+                    href="https://scl-019-card-validation-tau.vercel.app/src/index.html"
+                    target="_blank">
+                    <ImgProyect src={CardValidation} alt="img proyecto rym" />
+                    <H3Proyects>Card Validation 
+                    <Description>
+                    En este proyectose trata de construir una aplicación web que permita a
+                    un usuario validar el número de una tarjeta de crédito. Además,
+            tendrás implementar funcionalidad para ocultar todos los dígitos de
+            una tarjeta menos los últimos cuatro. La temática es libre. Debes
+            pensar en qué situaciones de la vida real se necesitaría validar una
+            tarjeta de crédito y pensar en cómo debe ser esa experiencia de uso
+            (qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc.
+            Aprender a construir una aplicación web que interactuará con l@s
+            usuari@ final a través del navegador, utilizando HTML, CSS y
+            JavaScript como tecnologías.
+            </Description>
+        </H3Proyects>
+        </AncProyect>
+          </Proyect>
+          <Proyect>
+                    <AncProyect 
+                    href="https://andreasvidal.github.io/SCL019-data-lovers/"
+                    target="_blank">
+                    <ImgProyect src={Rymt1} alt="img proyecto rym" />
+                    <H3Proyects>Card Validation 
+                    <Description>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi voluptate incidunt impedit velit suscipit est totam accusantium aut consequuntur provident laboriosam ut at delectus consequatur a quo, nesciunt expedita molestiae.
+            </Description>
+        </H3Proyects>
+        </AncProyect>
+          </Proyect>
+          <Proyect>
+                    <AncProyect 
+                    href="https://andreasvidal.github.io/SCL019-social-network/src/#/home"
+                    target="_blank">
+                    <ImgProyect src={SocialNet} alt="img proyecto rym" />
+                    <H3Proyects>Card Validation 
+                    <Description>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non nobis temporibus eius dolore placeat reprehenderit voluptatum quo, aut debitis cum dolor velit rem, minima, eveniet eum. Similique nemo perferendis sequi.
+            </Description>
+        </H3Proyects>
+        </AncProyect>
+          </Proyect>
+          <Proyect>
+                    <AncProyect 
+                    href="https://polite-pixie-5eb7e7.netlify.app"
+                    target="_blank">
+                    <ImgProyect src={BurgerQ} alt="img proyecto rym" />
+                    <H3Proyects>Card Validation 
+                    <Description>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, ducimus alias! Libero impedit earum debitis sint, omnis minima saepe animi suscipit illo at porro, quas doloremque nulla architecto totam. Doloribus.
+            </Description>
+        </H3Proyects>
+        </AncProyect>
+          </Proyect>
+          </ContainerProyect>
+      </main>
   );
 };
 
-const ContainerProyect = styled.div`
-   display: grid;
-`;
-
 const H2Proyects = styled.h2`
-  width: 100%;
-font-size: 5vh;
-font-weight: 700;
-text-align: center;
 color: #0D1C29;
-margin: 1rem;
-`;
-
-const ContainerImg = styled.div`
-display: flex;
-align-items: center;
-flex-direction: column;
-margin: 1.5rem;
-width: min-content;
-
-  img {
-        object-fit: cover;
-        width: 15.625rem;
-        height: 15.625rem;
-      }
-
-background: rgba(180, 105, 235, 0.03);
-box-shadow: 0px 3px 10px #B469EB;
-backdrop-filter: blur(90px);
-
-  &:hover {
-    transform: scale(1.1);
-  }
-`;
-const Proyect = styled.div`
-background: #000000;
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
-justify-content: center;
-padding: 1rem;
-margin: 0rem auto;
-width: 90%;
-`
-
-const H3Proyects = styled.h3`
+text-aling: center;
+text-decoration: none;
 font-family: 'Anonymous Pro';
 font-style: bold;
-color: #0D1C29;
-font-weight: 400;
+font-weight: 700;
+margin-top: 1rem;
+`;
+
+const ContainerProyect = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3vh;
+    padding: 2rem;
+    margin: 0.5rem;
+`;
+
+const Proyect = styled.div`
+position: relative;
+transition: ease-in-out 0.3s;
+
+&:hover {
+    transform: scale(1.1);
+}
+`;
+
+const H3Proyects = styled.h3`
+width: 100%;
+bottom: 0;
+top: 0;
+position: absolute;
+padding: 3rem 0rem;
+transition: ease-in-out 0.3s;
+opacity: 0;
+font-size: 30px;
 `;
 
 const Description = styled.p`
-font-family: 'Anonymous Pro';
-font-style: bold;
-color: #0D1C29;
-font-weight: 400;
+font-weight: 600;
+color: white;
+font-size: 0.9rem;
+margin: 0.3rem;
 
+&:hover {
+text-align: center;
+font-weight: 700;
+opacity: 1;
+color: white;
+background-color: rgba(126, 90, 255, 0.8);
+        }
+`
+const ImgProyect = styled.img`
+object-fit: cover;
+width: 250px;
+height: 250px;
+border: solid 0.3rem #0d1c2966;
 `;
+
+const AncProyect = styled.a`
+text-decoration: none;
+color: white;
+
+a:visited {
+color: white;
+}
+`
+
+

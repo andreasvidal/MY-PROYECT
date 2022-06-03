@@ -11,7 +11,14 @@ export const AboutMe = () => {
     <Main>
         <Titlecommons/>
         <Link to="/" ><PTitle>ABOUTE ME<IconsBack><AiOutlineRollback></AiOutlineRollback></IconsBack></PTitle></Link>
-        <H2><IoIosRocket/>Hola mi nombre es Andrea! <br/>Estoy comenzando es este mundo espacial del desalloro, para mi al principio era un lenguaje llegado desde otro planeta, pero con la constancia y ganas de aprender he podido ir traduciendo a mi propio lenguaje. Iniciando este viaje sin fin por el universo de la programación!</H2>
+        <H2><IoIosRocket/>Hola mi nombre es Andrea!<br/>Front-end comenzando en el mundo del desarrollo, hice posible mis estudios de ingeniería en Construcción y esto ha aportado en mi vida la responsabilidad y el compromiso de afrontar nuevos desafíos.<br />
+
+Esta etapa, me ayudó no solo a mejorar mi capacidad descubrir, sino que también contribuyó a desarrollar la adaptación al entorno, mi grado de responsabilidad, de comunicación y de gestionar situaciones difíciles. <br />
+
+Mi meta es convertirme en un futuro profesional lo más completo posible, con habilidades más allá de la aplicación práctica de los conocimientos que se adquieren. Por eso estoy en la búsqueda de cursos relacionados con el desarrollo que me ayuden a crecer profesionalmente y mejorar mis habilidades, en lógica, gestión. trabajo colaborativo, liderazgo, buenas prácticas etc.
+
+Si quieres conocer más de mí o necesitas más información, no dudes en preguntarme. 
+Abierto a afrontar nuevos desafíos laborales.</H2>
         <DivImg>
         <ImgAboutMe><IoMdFingerPrint/></ImgAboutMe>
         <ImgCv href="https://drive.google.com/file/d/1CLqLdjQVtuCPdz81Z1PcR_iiEAHKsOsV/view?usp=sharing" target="_blank">Descargar CV</ImgCv>
@@ -32,8 +39,8 @@ background: linear-gradient(168.55deg, #0D1C29 8.85%, #B469EB 42.19%, #8046A5 67
 const H2 = styled.h2`
 font-family: 'Anonymous Pro';
 font-style: bold;
-font-size: 2.5vh;
-line-height: 1.2rem;
+font-size: 3.5vh;
+line-height: 1.5rem;
 margin: 1rem 15%;
 padding: 0.5rem;
 display: flex;
@@ -43,6 +50,13 @@ text-align: center;
 box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 background: linear-gradient(180deg, rgba(180, 105, 235, 0.9) 0%, rgba(110, 72, 153, 0.9) 52.08%, rgba(13, 28, 41, 0.468) 100%);
 color: #0D1C29;
+font-weight: 400;
+font-style: bold;
+svg {
+    width: 4vh;
+    height: 4vh;
+    align-items: center;
+}
 `
 
 const PTitle = styled.p`
@@ -58,20 +72,28 @@ justify-content: space-between;
 align-items: center;
 height: 5rem;
 padding: 0 1.5rem;
+svg {
+    width: 4vh;
+    height: 4vh;
+    align-items: center;
+    text-aling: center;
+}
 
 &:hover {
    transition: 1s;
    cursor: pointer;
    transform: scale(1.15);
 }
+
 `
 
 const DivImg = styled.div`
 display: flex;
 align-items: center;
 text-align: center;
-width: fit-content;
+width: 100%;
 flex-wrap: wrap;
+gap: 5rem;
 justify-content: space-between;
 border-top: 0.3rem outset #0d1c2930;
 `
@@ -79,14 +101,15 @@ border-top: 0.3rem outset #0d1c2930;
 const ImgCv = styled.a`
 background-color: transparent;
 padding: 0.5rem 1rem;
-border: solid 0.3rem #0D1C29;;
+margin: 2rem 10rem;
+border: solid 0.3rem #0D1C29;
 text-decoration: none;
-color: #0D1C29;
+color: #B469EB;
 text-transform: uppercase;
 &:hover {
    transition: 1s;
    cursor: pointer;
-   transform: scale(1.15);
+   transform: scale(2.5);
 }
 `
 
