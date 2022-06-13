@@ -98,7 +98,7 @@ text-transform: uppercase;
 &:hover {
    transition: 1s;
    cursor: pointer;
-   transform: scale(2.5);
+   transform: scale(1.5);
 }
 `
 
