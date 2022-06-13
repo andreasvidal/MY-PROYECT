@@ -1,16 +1,22 @@
 
 import { Link } from "react-router-dom";
 import { AiOutlineRollback } from "react-icons/ai";
-import CheeseCake from "../../assets/hobbies/cheesseC.jpg"
+import Picabeja from "../../assets/hobbies/picabeja.JPG"
 import Pictur1 from "../../assets/hobbies/picture7.JPG"
 import Pictur2 from "../../assets/hobbies/picture2.jpg"
 import Pictur3 from "../../assets/hobbies/picture3.jpg"
 import Pictur4 from "../../assets/hobbies/picture4.jpg"
-import Cocina1 from "../../assets/hobbies/cocina1.jpg"
-import Cocina from "../../assets/hobbies/cocina.jpg"
-import BurgerQ from "../../assets/bq/burger-queen.png"
-import Cupcake from "../../assets/hobbies/cupcake.jpg"
-import Tejido from "../../assets/hobbies/tejido.jpg"
+import Picabeja2 from "../../assets/hobbies/picabeja2.JPG"
+import Picbicho from "../../assets/hobbies/picbicho.JPG"
+import Piccielo from "../../assets/hobbies/piccielo.JPG"
+import Picflores from "../../assets/hobbies/picflores.JPG"
+import Picgallo from "../../assets/hobbies/picgallo.JPG"
+import Picgallo2 from "../../assets/hobbies/picgallo2.JPG"
+import Picpajaro from "../../assets/hobbies/picpajaro.JPG"
+import Piclagartija from "../../assets/hobbies/piclagartija.JPG"
+import Picpaisaje from "../../assets/hobbies/picpaisaje.JPG"
+import Picpaisaje2 from "../../assets/hobbies/picpaisaje2.JPG"
+import Picpaisaje3 from "../../assets/hobbies/picpaisaje3.JPG"
 import styled from "styled-components"
 
 
@@ -25,26 +31,23 @@ export const Hobbies = () => {
                 <Pic src={Pictur3} alt="img proyecto rym"/>
                 <Pic src={Pictur4} alt="img proyecto rym"/>
             </Container>
-            <DivH2><H2></H2></DivH2>
             <Container>
-                <Pic src={BurgerQ} alt="img proyecto rym"/>
-                <Pic src={BurgerQ} alt="img proyecto rym"/>
-                <Pic src={BurgerQ} alt="img proyecto rym"/>
-                <Pic src={BurgerQ} alt="img proyecto rym"/>
+                <Pic src={Picabeja2} alt="img proyecto rym"/>
+                <Pic src={Picbicho} alt="img proyecto rym"/>
+                <Pic src={Piccielo} alt="img proyecto rym"/>
+                <Pic src={Picflores} alt="img proyecto rym"/>
             </Container>
-            <DivH2><H2></H2></DivH2>
             <Container>
-                <Pic src={Cocina1} alt="img proyecto rym"/>
-                <Pic src={Cocina} alt="img proyecto rym"/>
-                <Pic src={Cupcake} alt="img proyecto rym"/>
-                <Pic src={CheeseCake} alt="img proyecto rym"/>
+                <Pic src={Picgallo} alt="img proyecto rym"/>
+                <Pic src={Picgallo2} alt="img proyecto rym"/>
+                <Pic src={Picpajaro} alt="img proyecto rym"/>
+                <Pic src={Picabeja} alt="img proyecto rym"/>
             </Container>
-            <DivH2><H2></H2></DivH2>
             <Container>
-                <Pic src={Tejido} alt="img proyecto rym"/>
-                <Pic src={BurgerQ} alt="img proyecto rym"/>
-                <Pic src={BurgerQ} alt="img proyecto rym"/>
-                <Pic src={BurgerQ} alt="img proyecto rym"/>
+                <Pic src={Piclagartija} alt="img proyecto rym"/>
+                <Pic src={Picpaisaje} alt="img proyecto rym"/>
+                <Pic src={Picpaisaje2} alt="img proyecto rym"/>
+                <Pic src={Picpaisaje3} alt="img proyecto rym"/>
             </Container>
         </Main>
     )
@@ -123,4 +126,9 @@ object-fit: cover;
 width: 250px;
 height: 250px;
 border: solid 0.3rem #0d1c2966;
+&:hover {
+    transition: 1s;
+   cursor: pointer;
+   transform: scale(1.15);
+}
 `

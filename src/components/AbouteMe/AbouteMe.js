@@ -1,6 +1,6 @@
 
 import { AiOutlineRollback } from "react-icons/ai";
-import { IoIosRocket, IoMdFingerPrint } from "react-icons/io";
+import { IoIosRocket} from "react-icons/io";
 //import Monster from "../../assets/monster.png"
 import { Link } from "react-router-dom";
 import styled from 'styled-components';
@@ -41,7 +41,7 @@ flex-direction: column;
 align-items: center;
 text-align: center;
 box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-color: #0D1C29;
+color: #B469EB;
 font-weight: 400;
 font-style: bold;
 svg {
@@ -109,24 +109,7 @@ height: 1em;
 width: 1em;
 padding: 1.5rem;
 `
-const ImgAboutMe = styled.i`
-font-size: 5rem;
-margin: 2rem 10rem;
-padding: 0.5rem;
-border-radius: 50%;
-background: linear-gradient(180deg, rgba(180, 105, 235, 0.9) 0%, rgba(110, 72, 153, 0.9) 52.08%, rgba(13, 28, 41, 0.468) 100%);
-animation-name:rotate;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-&:after transform:rotate(-57deg);
-&:before transform:rotate(57deg);
- @keyframes rotate{
-    100%{
-    transform:rotate(360deg);
-    }
-}
-`
+
 
 const NameTitle = styled.p`
 font-size: 10vh;

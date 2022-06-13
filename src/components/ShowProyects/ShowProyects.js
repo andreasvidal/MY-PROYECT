@@ -191,7 +191,7 @@ flex-direction: column;
 align-items: center;
 text-align: center;
 background: rgba(180, 105, 235, 0.03);
-box-shadow: 0px 3px 10px #B469EB;
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 backdrop-filter: blur(90px);
 color: #0D1C29;
 `

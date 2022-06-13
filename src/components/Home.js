@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom";
-import robot from "../assets/logos/robot.png"
+//import { Link } from "react-router-dom";
 import styled from 'styled-components'
 import {FooterCommons} from "../commons/Footer"
 import {Titlecommons} from "../commons/Title"
@@ -13,10 +12,10 @@ export const Home = () => {
     <Main>
         <Titlecommons/>
         <div>
-            <Link to="/AbouteMe" ><P>ABOUTE ME</P></Link>
+            {/*<Link to="/AbouteMe" ><P>ABOUTE ME</P></Link>
             <Link to="/proyects" ><P>PROYECTS</P></Link>
             <Link to="/hobbies" ><P>HOBBIES</P></Link>
-            <Robot src={robot} alt="robot" />
+            <Robot src={robot} alt="robot" />*/}
             <AboutMe/>
             <ShowProyects/>
             <Hobbies/>
@@ -33,7 +32,7 @@ outline: none;
 box-sizing: border-box;
 `
 
- const P = styled.p`
+/*const P = styled.p`
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -53,9 +52,9 @@ backdrop-filter: blur(11px);
     cursor: pointer;
     transform: scale(1.15);
 }
- `
+ `*/
 
- const Robot = styled.img`
+/*const Robot = styled.img`
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -73,4 +72,4 @@ padding:1.5rem;
     transform:rotate(360deg);
     }
 }
- `
+ `*/
