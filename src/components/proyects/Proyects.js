@@ -1,25 +1,14 @@
-import {Titlecommons} from "../../commons/Title";
-import { FooterCommons } from "../../commons/Footer";
-import { AiOutlineRollback } from "react-icons/ai";
+
 //import Monster from "../../assets/monster.png"
-import {Skills} from "../Skills/Skills"
-import { Link } from "react-router-dom";
 import {ShowProyects} from "../ShowProyects/ShowProyects"
 import styled from 'styled-components';
 
 export const Proyects = () => {
     return (
     <Main>
-        <Titlecommons/>
-        <Link to="/" ><PTitle>PROYECTS<IconsBack><AiOutlineRollback></AiOutlineRollback></IconsBack></PTitle></Link>
-        <H2>Estos fueron mis desafíos realizados en mi paso por un hermoso proyecto llamado Laboratoria, luego de 6 meses de trabajo simulando un ambiente de trabajo real. Estos son mis 1eras experiencias desallorando aplicaciones que debian cumplir con ciertos estandares para realizar la entrega y revisión, en cada uno aprendi y aplique diferentes objetivos de aprendizaje.</H2>
-        <DivSkill>
-            <Skills/>
-        </DivSkill>
         <DivImg>
         <ShowProyects/>
         </DivImg>
-        <FooterCommons/>
     </Main>
     )
 }
@@ -32,23 +21,7 @@ box-sizing: border-box;
 background: linear-gradient(168.55deg, #0D1C29 8.85%, #B469EB 42.19%, #8046A5 67.19%, #0D1C29 93.75%);
 `;
 
-const H2 = styled.h2`
-font-family: 'Anonymous Pro';
-font-style: bold;
-font-weight: 700;
-font-size: 2.5vh;
-line-height: 1.2rem;
-margin: 1rem 15%;
-padding: 0.5rem;
-display: flex;
-flex-direction: column;
-align-items: center;
-text-align: center;
-background: rgba(180, 105, 235, 0.03);
-box-shadow: 0px 3px 10px #B469EB;
-backdrop-filter: blur(90px);
-color: #B469EB;
-`
+
 
 const PTitle = styled.p`
 color: #B469EB;
@@ -78,7 +51,6 @@ text-align: center;
 width: fit-content;
 flex-wrap: wrap;
 justify-content: space-between;
-border-top: 0.3rem outset #0d1c2930;
 `
 
 

@@ -1,5 +1,4 @@
-import {Titlecommons} from "../../commons/Title";
-import { FooterCommons } from "../../commons/Footer";
+
 import { AiOutlineRollback } from "react-icons/ai";
 import { IoIosRocket, IoMdFingerPrint } from "react-icons/io";
 //import Monster from "../../assets/monster.png"
@@ -9,9 +8,8 @@ import styled from 'styled-components';
 export const AboutMe = () => {
     return (
     <Main>
-        <Titlecommons/>
         <Link to="/" ><PTitle>ABOUTE ME<IconsBack><AiOutlineRollback></AiOutlineRollback></IconsBack></PTitle></Link>
-        <H2><IoIosRocket/>Hola mi nombre es Andrea!<br/>Front-end comenzando en el mundo del desarrollo, hice posible mis estudios de ingeniería en Construcción y esto ha aportado en mi vida la responsabilidad y el compromiso de afrontar nuevos desafíos.<br />
+        <H2><IoIosRocket/>Hola mi nombre es <NameTitle>Andrea!</NameTitle><br/>Front-end comenzando en el mundo del desarrollo, hice posible mis estudios de ingeniería en Construcción y esto ha aportado en mi vida la responsabilidad y el compromiso de afrontar nuevos desafíos.<br />
 
 Esta etapa, me ayudó no solo a mejorar mi capacidad descubrir, sino que también contribuyó a desarrollar la adaptación al entorno, mi grado de responsabilidad, de comunicación y de gestionar situaciones difíciles. <br />
 
@@ -20,10 +18,8 @@ Mi meta es convertirme en un futuro profesional lo más completo posible, con ha
 Si quieres conocer más de mí o necesitas más información, no dudes en preguntarme. 
 Abierto a afrontar nuevos desafíos laborales.</H2>
         <DivImg>
-        <ImgAboutMe><IoMdFingerPrint/></ImgAboutMe>
         <ImgCv href="https://drive.google.com/file/d/1CLqLdjQVtuCPdz81Z1PcR_iiEAHKsOsV/view?usp=sharing" target="_blank">Descargar CV</ImgCv>
         </DivImg>
-        <FooterCommons/>
     </Main>
     )
 }
@@ -32,12 +28,9 @@ const Main = styled.main`
 padding: 0;
 margin: 0;
 outline: none;
-box-sizing: border-box;
-background: linear-gradient(168.55deg, #0D1C29 8.85%, #B469EB 42.19%, #8046A5 67.19%, #0D1C29 93.75%);
 `;
 
 const H2 = styled.h2`
-font-family: 'Anonymous Pro';
 font-style: bold;
 font-size: 3.5vh;
 line-height: 1.5rem;
@@ -48,7 +41,6 @@ flex-direction: column;
 align-items: center;
 text-align: center;
 box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-background: linear-gradient(180deg, rgba(180, 105, 235, 0.9) 0%, rgba(110, 72, 153, 0.9) 52.08%, rgba(13, 28, 41, 0.468) 100%);
 color: #0D1C29;
 font-weight: 400;
 font-style: bold;
@@ -62,7 +54,6 @@ svg {
 const PTitle = styled.p`
 color: #B469EB;
 text-decoration: none;
-font-family: 'Anonymous Pro';
 background: #0D1C29;
 box-shadow: 0px 30px 12px rgba(0, 0, 0, 0.01), 0px 28px 11px rgba(0, 0, 0, 0.07), 0px 16px 9px rgba(0, 0, 0, 0.25), 0px 7px 7px rgba(0, 0, 0, 0.43), 0px 2px 4px rgba(0, 0, 0, 0.49), 0px 0px 0px rgba(0, 0, 0, 0.5);
 backdrop-filter: blur(11px);
@@ -93,18 +84,16 @@ align-items: center;
 text-align: center;
 width: 100%;
 flex-wrap: wrap;
-gap: 5rem;
-justify-content: space-between;
-border-top: 0.3rem outset #0d1c2930;
+justify-content: center;
 `
 
 const ImgCv = styled.a`
 background-color: transparent;
 padding: 0.5rem 1rem;
-margin: 2rem 10rem;
+margin: 2rem;
 border: solid 0.3rem #0D1C29;
 text-decoration: none;
-color: #B469EB;
+color: #0D1C29;
 text-transform: uppercase;
 &:hover {
    transition: 1s;
@@ -137,4 +126,9 @@ animation-name:rotate;
     transform:rotate(360deg);
     }
 }
+`
+
+const NameTitle = styled.p`
+font-size: 10vh;
+margin: 1rem;
 `

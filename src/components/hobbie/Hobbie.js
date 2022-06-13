@@ -1,5 +1,4 @@
-import {Titlecommons} from "../../commons/Title"
-import {FooterCommons} from "../../commons/Footer"
+
 import { Link } from "react-router-dom";
 import { AiOutlineRollback } from "react-icons/ai";
 import CheeseCake from "../../assets/hobbies/cheesseC.jpg"
@@ -18,37 +17,35 @@ import styled from "styled-components"
 export const Hobbies = () => {
     return (
         <Main>
-            <Titlecommons/>
             <Link to="/" ><PTitle>HOBBIES<IconsBack><AiOutlineRollback></AiOutlineRollback></IconsBack></PTitle></Link>
-            <DivH2><H2>FOTOGRAFÍA</H2></DivH2>
+            <DivH2><H2>FOTOGRAFÍAS</H2></DivH2>
             <Container>
                 <Pic src={Pictur1} alt="img proyecto rym"/>
                 <Pic src={Pictur2} alt="img proyecto rym"/>
                 <Pic src={Pictur3} alt="img proyecto rym"/>
                 <Pic src={Pictur4} alt="img proyecto rym"/>
             </Container>
-            <DivH2><H2>PLANTAS</H2></DivH2>
+            <DivH2><H2></H2></DivH2>
             <Container>
                 <Pic src={BurgerQ} alt="img proyecto rym"/>
                 <Pic src={BurgerQ} alt="img proyecto rym"/>
                 <Pic src={BurgerQ} alt="img proyecto rym"/>
                 <Pic src={BurgerQ} alt="img proyecto rym"/>
             </Container>
-            <DivH2><H2>COCINA</H2></DivH2>
+            <DivH2><H2></H2></DivH2>
             <Container>
                 <Pic src={Cocina1} alt="img proyecto rym"/>
                 <Pic src={Cocina} alt="img proyecto rym"/>
                 <Pic src={Cupcake} alt="img proyecto rym"/>
                 <Pic src={CheeseCake} alt="img proyecto rym"/>
             </Container>
-            <DivH2><H2>TEJIDO</H2></DivH2>
+            <DivH2><H2></H2></DivH2>
             <Container>
                 <Pic src={Tejido} alt="img proyecto rym"/>
                 <Pic src={BurgerQ} alt="img proyecto rym"/>
                 <Pic src={BurgerQ} alt="img proyecto rym"/>
                 <Pic src={BurgerQ} alt="img proyecto rym"/>
             </Container>
-            <FooterCommons/>
         </Main>
     )
 }
@@ -57,14 +54,11 @@ const Main = styled.main`
 padding: 0;
 margin: 0;
 outline: none;
-box-sizing: border-box;
-background: linear-gradient(168.55deg, #0D1C29 8.85%, #B469EB 42.19%, #8046A5 67.19%, #0D1C29 93.75%);
 `;
 
 const PTitle = styled.p`
 color: #B469EB;
 text-decoration: none;
-font-family: 'Anonymous Pro';
 background: #0D1C29;
 box-shadow: 0px 30px 12px rgba(0, 0, 0, 0.01), 0px 28px 11px rgba(0, 0, 0, 0.07), 0px 16px 9px rgba(0, 0, 0, 0.25), 0px 7px 7px rgba(0, 0, 0, 0.43), 0px 2px 4px rgba(0, 0, 0, 0.49), 0px 0px 0px rgba(0, 0, 0, 0.5);
 backdrop-filter: blur(11px);
@@ -119,7 +113,6 @@ margin: 2rem 2rem 0;
 `
 
 const H2 = styled.h2`
-font-family: 'Anonymous Pro';
 font-style: bold;
 color: #B469EB;
 font-weight: 400;

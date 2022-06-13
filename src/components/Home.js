@@ -3,6 +3,9 @@ import robot from "../assets/logos/robot.png"
 import styled from 'styled-components'
 import {FooterCommons} from "../commons/Footer"
 import {Titlecommons} from "../commons/Title"
+import {AboutMe} from "../components/AbouteMe/AbouteMe"
+import {ShowProyects} from "../components/ShowProyects/ShowProyects"
+import {Hobbies} from "../components/hobbie/Hobbie"
 
 
 export const Home = () => {
@@ -14,6 +17,9 @@ export const Home = () => {
             <Link to="/proyects" ><P>PROYECTS</P></Link>
             <Link to="/hobbies" ><P>HOBBIES</P></Link>
             <Robot src={robot} alt="robot" />
+            <AboutMe/>
+            <ShowProyects/>
+            <Hobbies/>
         </div>
         <FooterCommons/>
     </Main>
@@ -25,7 +31,6 @@ padding: 0;
 margin: 0;
 outline: none;
 box-sizing: border-box;
-background: linear-gradient(168.55deg, #0D1C29 8.85%, #B469EB 42.19%, #8046A5 67.19%, #0D1C29 93.75%);
 `
 
  const P = styled.p`
@@ -36,7 +41,6 @@ text-align: center;
 left: 20px;
 color: #B469EB;
 text-decoration: none;
-font-family: 'Anonymous Pro';
 font-style: bold;
 margin: 2.5rem 25%;
 padding: 1.5rem;
@@ -56,7 +60,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 padding:1.5rem;
- width:4.375rem;
+ width: 7rem;
  margin: auto;
  animation-name:rotate;
     animation-duration: 5s;

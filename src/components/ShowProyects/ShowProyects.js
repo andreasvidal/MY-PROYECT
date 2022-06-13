@@ -1,12 +1,19 @@
+import { Link } from "react-router-dom";
+import { AiOutlineRollback } from "react-icons/ai";
+import {Skills} from "../Skills/Skills"
 import Rymt1 from "../../assets/rym/rymt1.jpg";
 import styled from "styled-components";
 import CardValidation from "../../assets/cardv/refuge.jpg";
 import SocialNet from "../../assets/rs/social-net.png"
 import BurgerQ from "../../assets/bq/burger-queen.png"
+
 export const ShowProyects = () => {
   return (
       <main>
+      <Link to="/" ><PTitle>PROYECTS<IconsBack><AiOutlineRollback></AiOutlineRollback></IconsBack></PTitle></Link>
+      <Skills/>
           <H2Proyects>PROYECTS</H2Proyects>
+          <H2>Estos fueron mis desafíos realizados en mi paso por un hermoso proyecto llamado Laboratoria, luego de 6 meses de trabajo simulando un ambiente de trabajo real. Estos son mis 1eras experiencias desallorando aplicaciones que debian cumplir con ciertos estandares para realizar la entrega y revisión, en cada uno aprendi y aplique diferentes objetivos de aprendizaje.</H2>
             <ContainerProyect>
                 <Proyect>
                     <AncProyect 
@@ -72,12 +79,13 @@ export const ShowProyects = () => {
 
 const H2Proyects = styled.h2`
 color: #0D1C29;
-text-aling: center;
 text-decoration: none;
-font-family: 'Anonymous Pro';
-font-style: bold;
-font-weight: 700;
 margin-top: 1rem;
+text-align: center;
+font-size: 5vh;
+font-weight: 700;
+background: #0d1c2969;
+padding: 1rem;
 `;
 
 const ContainerProyect = styled.div`
@@ -139,4 +147,51 @@ color: white;
 }
 `
 
+const PTitle = styled.p`
+color: #B469EB;
+text-decoration: none;
+background: #0D1C29;
+box-shadow: 0px 30px 12px rgba(0, 0, 0, 0.01), 0px 28px 11px rgba(0, 0, 0, 0.07), 0px 16px 9px rgba(0, 0, 0, 0.25), 0px 7px 7px rgba(0, 0, 0, 0.43), 0px 2px 4px rgba(0, 0, 0, 0.49), 0px 0px 0px rgba(0, 0, 0, 0.5);
+backdrop-filter: blur(11px);
+margin: 2rem 25%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 5rem;
+padding: 0 1.5rem;
+svg {
+    width: 4vh;
+    height: 4vh;
+    align-items: center;
+    text-aling: center;
+}
 
+&:hover {
+   transition: 1s;
+   cursor: pointer;
+   transform: scale(1.15);
+}
+`
+
+const IconsBack = styled.i`
+background: rgba(180, 105, 235, 0.5);
+color: #0D1C29;
+height: 1em;
+width: 1em;
+padding: 1.5rem;
+`
+const H2 = styled.h2`
+font-weight: 400;
+font-size: 3.5vh;
+line-height: 1.5rem;
+margin: 1rem 15%;
+padding: 0.5rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+background: rgba(180, 105, 235, 0.03);
+box-shadow: 0px 3px 10px #B469EB;
+backdrop-filter: blur(90px);
+color: #0D1C29;
+`
