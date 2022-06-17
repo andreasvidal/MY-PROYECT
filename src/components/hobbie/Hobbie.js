@@ -118,7 +118,7 @@ border: solid 0.3rem #0d1c2966;
 &:hover {
     transition: 1s;
    cursor: pointer;
-   transform: scale(3);
+   transform: scale(2);
    object-fit: cover;
    border:none
 }
