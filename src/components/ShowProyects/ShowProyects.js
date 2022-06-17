@@ -170,13 +170,14 @@ font-size: 3vw;
 const P2 = styled.p`
 font-weight: 400;
 font-size: 3.5vh;
-line-height: 1.5rem;
+line-height: 2rem;
 margin: 1rem 15%;
 padding: 0.5rem;
 display: flex;
 flex-direction: column;
 align-items: center;
-text-align: center;
+text-align: justify;
+text-justify: inter-word;
 background: rgba(180, 105, 235, 0.03);
 box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 backdrop-filter: blur(90px);

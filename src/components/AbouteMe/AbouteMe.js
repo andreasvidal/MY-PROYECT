@@ -7,7 +7,7 @@ import styled from 'styled-components';
 export const AboutMe = () => {
     return (
     <Main>
-        <Link to="/" ><PTitle>ABOUTE ME</PTitle></Link>
+        <Link to="/" ><PTitle>ABOUT ME</PTitle></Link>
         <H2><IconRocket><IoIosRocket/></IconRocket>Hola mi nombre es <NameTitle>Andrea!</NameTitle><br/>Front-end comenzando en el mundo del desarrollo, hice posible mis estudios de ingeniería en Construcción y esto ha aportado en mi vida la responsabilidad y el compromiso de afrontar nuevos desafíos.<br />
 Esta etapa, me ayudó no solo a mejorar mi capacidad descubrir, sino que también contribuyó a desarrollar la adaptación al entorno, mi grado de responsabilidad, de comunicación y de gestionar situaciones difíciles. <br />
 Mi meta es convertirme en un futuro profesional lo más completo posible, con habilidades más allá de la aplicación práctica de los conocimientos que se adquieren. Por eso estoy en la búsqueda de cursos relacionados con el desarrollo que me ayuden a crecer profesionalmente y mejorar mis habilidades, en lógica, gestión. trabajo colaborativo, liderazgo, buenas prácticas etc.
@@ -35,7 +35,9 @@ padding: 0.5rem;
 display: flex;
 flex-direction: column;
 align-items: center;
-text-align: center;
+text-align: justify;
+text-justify: inter-word;
+background: #0d1c2969;
 box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 color: #B469EB;
 font-size: 3.5vh;
@@ -92,7 +94,7 @@ font-size: 2vw;
 `
 
 const NameTitle = styled.p`
-font-size: 10vh;
+font-size: 8vh;
 margin: 1rem;
 `
 
