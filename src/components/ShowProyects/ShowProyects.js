@@ -11,8 +11,8 @@ export const ShowProyects = () => {
       <main>
       <Link to="/"><PTitle>PROYECTS</PTitle></Link>
       <Skills/>
-          <H2Proyects>Estos son mis proyectos</H2Proyects>
-          <P2>Estos fueron mis desafíos realizados en mi paso por un hermoso proyecto llamado Laboratoria, luego de 6 meses de trabajo simulando un ambiente de trabajo real. Estos son mis 1eras experiencias desallorando aplicaciones que debian cumplir con ciertos estandares para realizar la entrega y revisión, en cada uno aprendi y aplique diferentes objetivos de aprendizaje.</P2>
+          <H2Proyects> Mis proyectos</H2Proyects>
+          <P2>Estos fueron algunos de mis desafíos realizados en mi paso por un hermoso oportunidad llamada Laboratoria, luego de 6 meses de aprendizaje simulando un ambiente de trabajo real. Estos fuerno mis primeras experiencias desallorando aplicaciones que debian cumplir con ciertos estandares para realizar la entrega y revisión, en cada uno aprendi y aplique diferentes objetivos de aprendizaje. Sigo por el camino del conocimiento para mejorar día a día!</P2>
             <ContainerProyect>
                 <Proyect>
                     <AncProyect 
