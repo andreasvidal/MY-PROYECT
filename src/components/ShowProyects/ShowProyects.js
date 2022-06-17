@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { AiOutlineRollback } from "react-icons/ai";
 import {Skills} from "../Skills/Skills"
 import Rymt1 from "../../assets/rym/rymt1.jpg";
 import styled from "styled-components";
@@ -10,17 +9,17 @@ import BurgerQ from "../../assets/bq/burger-queen.png"
 export const ShowProyects = () => {
   return (
       <main>
-      <Link to="/" ><PTitle>PROYECTS<IconsBack><AiOutlineRollback></AiOutlineRollback></IconsBack></PTitle></Link>
+      <Link to="/"><PTitle>PROYECTS</PTitle></Link>
       <Skills/>
-          <H2Proyects>PROYECTS</H2Proyects>
-          <H2>Estos fueron mis desafíos realizados en mi paso por un hermoso proyecto llamado Laboratoria, luego de 6 meses de trabajo simulando un ambiente de trabajo real. Estos son mis 1eras experiencias desallorando aplicaciones que debian cumplir con ciertos estandares para realizar la entrega y revisión, en cada uno aprendi y aplique diferentes objetivos de aprendizaje.</H2>
+          <H2Proyects>Estos son mis proyectos</H2Proyects>
+          <P2>Estos fueron mis desafíos realizados en mi paso por un hermoso proyecto llamado Laboratoria, luego de 6 meses de trabajo simulando un ambiente de trabajo real. Estos son mis 1eras experiencias desallorando aplicaciones que debian cumplir con ciertos estandares para realizar la entrega y revisión, en cada uno aprendi y aplique diferentes objetivos de aprendizaje.</P2>
             <ContainerProyect>
                 <Proyect>
                     <AncProyect 
                     href="https://scl-019-card-validation-tau.vercel.app/src/index.html"
                     target="_blank">
-                    <ImgProyect src={CardValidation} alt="img proyecto rym" />
                     <H3Proyects>Card Validation 
+                    <ImgProyect src={CardValidation} alt="img proyecto rym" />
                     <Description>
                     En este proyectose trata de construir una aplicación web que permita a
                     un usuario validar el número de una tarjeta de crédito. Además,
@@ -79,12 +78,12 @@ export const ShowProyects = () => {
 
 const H2Proyects = styled.h2`
 color: #0D1C29;
+jutify-contect: center;
 text-decoration: none;
 margin-top: 1rem;
 text-align: center;
-font-size: 5vh;
 font-weight: 700;
-background: #0d1c2969;
+font-size: 3vw;
 padding: 1rem;
 `;
 
@@ -155,16 +154,12 @@ box-shadow: 0px 30px 12px rgba(0, 0, 0, 0.01), 0px 28px 11px rgba(0, 0, 0, 0.07)
 backdrop-filter: blur(11px);
 margin: 2rem 25%;
 display: flex;
-justify-content: space-between;
+justify-content: center;
 align-items: center;
 height: 5rem;
 padding: 0 1.5rem;
-svg {
-    width: 4vh;
-    height: 4vh;
-    align-items: center;
-    text-aling: center;
-}
+font-weight: 700;
+font-size: 3vw;
 
 &:hover {
    transition: 1s;
@@ -172,15 +167,7 @@ svg {
    transform: scale(1.15);
 }
 `
-
-const IconsBack = styled.i`
-background: rgba(180, 105, 235, 0.5);
-color: #0D1C29;
-height: 1em;
-width: 1em;
-padding: 1.5rem;
-`
-const H2 = styled.h2`
+const P2 = styled.p`
 font-weight: 400;
 font-size: 3.5vh;
 line-height: 1.5rem;

@@ -1,6 +1,5 @@
 
 import { Link } from "react-router-dom";
-import { AiOutlineRollback } from "react-icons/ai";
 import Picabeja from "../../assets/hobbies/picabeja.JPG"
 import Pictur1 from "../../assets/hobbies/picture7.JPG"
 import Pictur2 from "../../assets/hobbies/picture2.jpg"
@@ -23,7 +22,7 @@ import styled from "styled-components"
 export const Hobbies = () => {
     return (
         <Main>
-            <Link to="/" ><PTitle>HOBBIES<IconsBack><AiOutlineRollback></AiOutlineRollback></IconsBack></PTitle></Link>
+            <Link to="/" ><PTitle>HOBBIES</PTitle></Link>
             <DivH2><H2>FOTOGRAFÍAS</H2></DivH2>
             <Container>
                 <Pic src={Pictur1} alt="img proyecto rym"/>
@@ -67,16 +66,12 @@ box-shadow: 0px 30px 12px rgba(0, 0, 0, 0.01), 0px 28px 11px rgba(0, 0, 0, 0.07)
 backdrop-filter: blur(11px);
 margin: 2rem 25%;
 display: flex;
-justify-content: space-between;
+justify-content: center;
 align-items: center;
 height: 5rem;
 padding: 0 1.5rem;
-svg {
-    width: 4vh;
-    height: 4vh;
-    align-items: center;
-    text-aling: center;
-}
+font-weight: 700;
+font-size: 3vw;
 
 &:hover {
    transition: 1s;
@@ -85,13 +80,6 @@ svg {
 }
 `
 
-const IconsBack = styled.i`
-background: rgba(180, 105, 235, 0.5);
-color: #0D1C29;
-height: 1em;
-width: 1em;
-padding: 1.5rem;
-`
 const Container = styled.div`
     display: flex;
     flex-wrap: wrap;
@@ -118,7 +106,8 @@ margin: 2rem 2rem 0;
 const H2 = styled.h2`
 font-style: bold;
 color: #B469EB;
-font-weight: 400;
+font-weight: 700;
+font-size: 3vw;
 `;
 
 const Pic = styled.img`
@@ -129,6 +118,8 @@ border: solid 0.3rem #0d1c2966;
 &:hover {
     transition: 1s;
    cursor: pointer;
-   transform: scale(1.15);
+   transform: scale(3);
+   object-fit: cover;
+   border:none
 }
 `

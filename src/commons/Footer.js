@@ -37,7 +37,7 @@ position: relative;
 background: #B469EB;
 border-top: 0.1rem solid #0D1C29;
 width: auto;
-margin: 0;
+margin-top: 6rem;
 padding: 1rem 1.5rem;
 
  `;

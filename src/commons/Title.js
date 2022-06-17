@@ -1,9 +1,8 @@
 import styled from 'styled-components'
-import { BiWorld } from "react-icons/bi";
 
 export const Titlecommons = () => {
     return(
-        <Title>WELCOME TO MY (HELLO) WORLD <BiWorld/> !</Title>
+        <Title>WELCOME TO MY (HELLO) WORLD!</Title>
     )
 }
 
