@@ -20,7 +20,8 @@ export const FooterCommons = () => {
                 </AnIcon>
                 </Icons>
             <Icons>
-                <AnIcon><IoLogoWhatsapp/></AnIcon>
+                <AnIcon href='https://api.whatsapp.com/send?phone=+56975712678&text=Hola no dudes en escribirme. Saludos!'>
+                <IoLogoWhatsapp/></AnIcon>
             </Icons>
         </IconsContainer>
         </Footer>
