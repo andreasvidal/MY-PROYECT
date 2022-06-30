@@ -116,10 +116,10 @@ width: 250px;
 height: 250px;
 border: solid 0.3rem #0d1c2966;
 &:hover {
-    transition: 1s;
+    transition: all .3s;
    cursor: pointer;
    transform: scale(2);
    object-fit: cover;
-   border:none
+   border:none;
 }
 `
