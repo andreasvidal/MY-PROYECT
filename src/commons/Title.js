@@ -1,8 +1,12 @@
 import styled from 'styled-components'
+import Banner from '../assets/logos/banner.jpg'
 
 export const Titlecommons = () => {
     return(
-        <Title>WELCOME TO MY (HELLO) WORLD!</Title>
+        <div>
+                <Title>WELCOME TO MY WORLD!</Title>
+        <ImgBanner src={Banner} alt="img banner universo"  />
+        </div>
     )
 }
 
@@ -11,13 +15,19 @@ display: flex;
 align-items: center;
 text-align: center;
 justify-content: center;
-font-family: 'Anonymous Pro';
-font-size: 1.5rem;
+font-size: 3rem;
 font-weight: 700;
-color: #B469EB;
-margin: auto 25%;
-padding: 2rem;
-background: rgba(180, 105, 235, 0.03);
-box-shadow: 0px 3px 10px #B469EB;
-backdrop-filter: blur(90px);
+color: #ae8cfa;
+margin: auto 20%;
+position: absolute;
+background: #242132;
+margin-top: 1.5rem;
+padding: 1rem 2rem;
+border-radius:0.5rem;
+z-index: 2;
  `;
+
+ const ImgBanner = styled.img`
+    width:100%;
+    margin-top: -3rem;
+ `

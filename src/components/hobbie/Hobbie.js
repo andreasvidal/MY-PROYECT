@@ -1,5 +1,4 @@
 
-import { Link } from "react-router-dom";
 import Picabeja from "../../assets/hobbies/picabeja.JPG"
 import Pictur1 from "../../assets/hobbies/picture7.JPG"
 import Pictur2 from "../../assets/hobbies/picture2.jpg"
@@ -22,7 +21,6 @@ import styled from "styled-components"
 export const Hobbies = () => {
     return (
         <Main>
-            <Link to="/" ><PTitle>HOBBIES</PTitle></Link>
             <DivH2><H2>FOTOGRAFÍAS</H2></DivH2>
             <Container>
                 <Pic src={Pictur1} alt="img proyecto rym"/>
@@ -58,27 +56,6 @@ margin: 0;
 outline: none;
 `;
 
-const PTitle = styled.p`
-color: #B469EB;
-text-decoration: none;
-background: #0D1C29;
-box-shadow: 0px 30px 12px rgba(0, 0, 0, 0.01), 0px 28px 11px rgba(0, 0, 0, 0.07), 0px 16px 9px rgba(0, 0, 0, 0.25), 0px 7px 7px rgba(0, 0, 0, 0.43), 0px 2px 4px rgba(0, 0, 0, 0.49), 0px 0px 0px rgba(0, 0, 0, 0.5);
-backdrop-filter: blur(11px);
-margin: 2rem 25%;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 5rem;
-padding: 0 1.5rem;
-font-weight: 700;
-font-size: 3vw;
-
-&:hover {
-   transition: 1s;
-   cursor: pointer;
-   transform: scale(1.15);
-}
-`
 
 const Container = styled.div`
     display: flex;

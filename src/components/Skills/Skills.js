@@ -71,7 +71,7 @@ margin: 1rem;
         width: 8vh;
         height: 8vh;
         margin: 1em;
-        color: #0D1C29;
+        color: #ae8cfa;
         }
 `
 
@@ -93,12 +93,11 @@ const TitleSkill = styled.h3`
     font-size: 5vh;
     font-weight: 700;
     text-align: center;
-    color: #0D1C29;
+    color: #ae8cfa;
 `
 
 const TitleP = styled.p`
-font-family: 'Anonymous Pro';
 font-style: bold;
-color: #0D1C29;
+color: #ae8cfa;
 font-weight: 400;
 `

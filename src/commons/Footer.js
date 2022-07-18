@@ -35,7 +35,7 @@ align-content: center;
 justify-content: space-between;
 align-items: center;
 position: relative;
-background: #B469EB;
+background: #ae8cfa;
 border-top: 0.1rem solid #0D1C29;
 width: auto;
 margin-top: 6rem;
