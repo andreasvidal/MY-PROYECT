@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const AboutMe = () => {
     return (
     <Main>
-<PTitle>¡Algo sobre mi!</PTitle>
+<PTitle>¡SOBRE MI!</PTitle>
         <H2>Mi nombre es Andrea Salas, reconvirtiendo mi camino desde la construcción al desarrollo web, estoy muy motivada por aprender, aportar y afrontar nuevos desafíos.
 Quiero tener la oportunidad de que nos conozcamos en una entrevista para personalmente exponerles mis aptitudes y mis deseos de formar parte de su equipo.  
 Cualquier consulta o información adicional, no duden en escribirme.
@@ -22,8 +22,8 @@ outline: none;
 `;
 
 const H2 = styled.h2`
-font-style: bold;
 font-size: 3.5vh;
+font-weight: 400;
 line-height: 2rem;
 margin: 1rem 10%;
 padding: 0.5rem;
@@ -32,10 +32,9 @@ flex-direction: column;
 align-items: center;
 text-align: justify;
 text-justify: inter-word;
+background: #746cfc3b;
 box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 color: #fefcff;
-font-size: 3.5vh;
-font-weight: bold;
 border-radius: 0.6rem;
 `
 
@@ -50,6 +49,7 @@ height: 5rem;
 padding: 0 1.5rem;
 font-weight: 700;
 font-size: 3vw;
+text-shadow: 0.1rem 0.1rem #7e5affcc;
 `
 
 const DivImg = styled.div`
@@ -59,6 +59,7 @@ text-align: center;
 width: 100%;
 flex-wrap: wrap;
 justify-content: center;
+border-bottom: 0.1rem solid #ae8cfa;
 `
 
 const ImgCv = styled.a`

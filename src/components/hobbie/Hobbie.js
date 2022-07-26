@@ -1,7 +1,5 @@
 
 import Picabeja from "../../assets/hobbies/picabeja.JPG"
-import Pictur1 from "../../assets/hobbies/picture7.JPG"
-import Pictur2 from "../../assets/hobbies/picture2.jpg"
 import Pictur3 from "../../assets/hobbies/picture3.jpg"
 import Pictur4 from "../../assets/hobbies/picture4.jpg"
 import Picabeja2 from "../../assets/hobbies/picabeja2.JPG"
@@ -21,10 +19,10 @@ import styled from "styled-components"
 export const Hobbies = () => {
     return (
         <Main>
-            <DivH2><H2>FOTOGRAFÍAS</H2></DivH2>
+            <DivH2><H2>HOBBIE</H2></DivH2>
             <Container>
-                <Pic src={Pictur1} alt="img proyecto rym"/>
-                <Pic src={Pictur2} alt="img proyecto rym"/>
+                <Pic src='https://mcusercontent.com/58e31daebe3c1a67caaa38665/images/85763e56-7b46-17ac-8073-d510365f6038.jpg' alt="img proyecto rym"/>
+                <Pic src='https://mcusercontent.com/58e31daebe3c1a67caaa38665/images/fd1522b4-bf54-deb1-8629-b5ae3d166dc5.jpg' alt="img proyecto rym"/>
                 <Pic src={Pictur3} alt="img proyecto rym"/>
                 <Pic src={Pictur4} alt="img proyecto rym"/>
             </Container>

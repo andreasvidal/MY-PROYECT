@@ -77,23 +77,26 @@ margin: 1rem;
 
 const IconCont = styled.div`
 display: grid;
+border-bottom: 0.1rem solid #ae8cfa;
+background: #242132;
 `
 
 const IconGrpup = styled.div`
 display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-      justify-content: center;
-      padding: 1rem;
-      margin: 0rem auto;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+padding: 1rem;
+margin: 0rem auto;
 `
 
 const TitleSkill = styled.h3`
-    width: 100%;
-    font-size: 5vh;
-    font-weight: 700;
-    text-align: center;
-    color: #ae8cfa;
+margin-bottom: 1rem;
+width: 100%;
+font-size: 5vh;
+font-weight: 700;
+text-align: center;
+color: #ae8cfa;
 `
 
 const TitleP = styled.p`
