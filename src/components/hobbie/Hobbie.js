@@ -1,18 +1,3 @@
-
-import Picabeja from "../../assets/hobbies/picabeja.JPG"
-import Pictur3 from "../../assets/hobbies/picture3.jpg"
-import Pictur4 from "../../assets/hobbies/picture4.jpg"
-import Picabeja2 from "../../assets/hobbies/picabeja2.JPG"
-import Picbicho from "../../assets/hobbies/picbicho.JPG"
-import Piccielo from "../../assets/hobbies/piccielo.JPG"
-import Picflores from "../../assets/hobbies/picflores.JPG"
-import Picgallo from "../../assets/hobbies/picgallo.JPG"
-import Picgallo2 from "../../assets/hobbies/picgallo2.JPG"
-import Picpajaro from "../../assets/hobbies/picpajaro.JPG"
-import Piclagartija from "../../assets/hobbies/piclagartija.JPG"
-import Picpaisaje from "../../assets/hobbies/picpaisaje.JPG"
-import Picpaisaje2 from "../../assets/hobbies/picpaisaje2.JPG"
-import Picpaisaje3 from "../../assets/hobbies/picpaisaje3.JPG"
 import styled from "styled-components"
 
 
@@ -23,26 +8,26 @@ export const Hobbies = () => {
             <Container>
                 <Pic src='https://mcusercontent.com/58e31daebe3c1a67caaa38665/images/85763e56-7b46-17ac-8073-d510365f6038.jpg' alt="img proyecto rym"/>
                 <Pic src='https://mcusercontent.com/58e31daebe3c1a67caaa38665/images/fd1522b4-bf54-deb1-8629-b5ae3d166dc5.jpg' alt="img proyecto rym"/>
-                <Pic src={Pictur3} alt="img proyecto rym"/>
-                <Pic src={Pictur4} alt="img proyecto rym"/>
+                <Pic src='https://mcusercontent.com/58e31daebe3c1a67caaa38665/images/d6d17471-59be-0373-756c-84c33ba55bc1.jpg' alt="img proyecto rym"/>
+                <Pic src='https://mcusercontent.com/58e31daebe3c1a67caaa38665/images/15cef6a0-b0a7-2aa3-fb1b-5d6644b2b3a1.jpg' alt="img proyecto rym"/>
             </Container>
             <Container>
-                <Pic src={Picabeja2} alt="img proyecto rym"/>
-                <Pic src={Picbicho} alt="img proyecto rym"/>
-                <Pic src={Piccielo} alt="img proyecto rym"/>
-                <Pic src={Picflores} alt="img proyecto rym"/>
+                <Pic src='https://mcusercontent.com/58e31daebe3c1a67caaa38665/images/e6f844d1-b403-4064-1e0c-76258a42836d.jpg' alt="img proyecto rym"/>
+                <Pic src='https://mcusercontent.com/58e31daebe3c1a67caaa38665/images/0b4c131a-7880-0ec2-5a4f-99a7ed9baa02.jpg' alt="img proyecto rym"/>
+                <Pic src='https://mcusercontent.com/58e31daebe3c1a67caaa38665/images/9779119d-6549-a30b-2a9d-5c787fcc47f0.jpg' alt="img proyecto rym"/>
+                <Pic src='https://mcusercontent.com/58e31daebe3c1a67caaa38665/images/30495171-44f1-aef4-b27f-b74958f41f47.jpg' alt="img proyecto rym"/>
             </Container>
             <Container>
-                <Pic src={Picgallo} alt="img proyecto rym"/>
-                <Pic src={Picgallo2} alt="img proyecto rym"/>
-                <Pic src={Picpajaro} alt="img proyecto rym"/>
-                <Pic src={Picabeja} alt="img proyecto rym"/>
+                <Pic src='https://mcusercontent.com/58e31daebe3c1a67caaa38665/images/e7df19c7-6354-cd77-05a5-5ecb46ac7ad1.jpg' alt="img proyecto rym"/>
+                <Pic src='https://mcusercontent.com/58e31daebe3c1a67caaa38665/images/215116bc-368e-a8f4-2daa-6f91d23fd967.jpg' alt="img proyecto rym"/>
+                <Pic src='https://mcusercontent.com/58e31daebe3c1a67caaa38665/images/fa7cee10-d334-7397-a2b6-0e7b3f3428e5.jpg' alt="img proyecto rym"/>
+                <Pic src='https://mcusercontent.com/58e31daebe3c1a67caaa38665/images/487834ef-c412-2e47-cdf8-f573fa72c6ef.jpg' alt="img proyecto rym"/>
             </Container>
             <Container>
-                <Pic src={Piclagartija} alt="img proyecto rym"/>
-                <Pic src={Picpaisaje} alt="img proyecto rym"/>
-                <Pic src={Picpaisaje2} alt="img proyecto rym"/>
-                <Pic src={Picpaisaje3} alt="img proyecto rym"/>
+                <Pic src='https://mcusercontent.com/58e31daebe3c1a67caaa38665/images/42f89da7-c845-bc1c-fdfc-a471d24f38a8.jpg' alt="img proyecto rym"/>
+                <Pic src='https://mcusercontent.com/58e31daebe3c1a67caaa38665/images/acab652b-7a8d-a8b1-ff45-3eacf9b33878.jpg' alt="img proyecto rym"/>
+                <Pic src='https://mcusercontent.com/58e31daebe3c1a67caaa38665/images/3519d6f3-4b04-28f0-5bd3-f1532a7cce84.jpg' alt="img proyecto rym"/>
+                <Pic src='https://mcusercontent.com/58e31daebe3c1a67caaa38665/images/18bd6b31-85d5-233a-8c4e-999ab9577368.jpg' alt="img proyecto rym"/>
             </Container>
         </Main>
     )
