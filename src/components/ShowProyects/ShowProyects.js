@@ -8,14 +8,15 @@ import CardValidation from "../../assets/cardv/refuge.jpg";
 export const ShowProyects = () => {
   return (
     <>
-    <Skills/>
-    <H2Proyects> Mis proyectos</H2Proyects>
-    <Main>
-      <Container>
-        <div className="face front ">
+      <Skills />
+      <H2Proyects> Mis proyectos</H2Proyects>
+      <Main>
+        <Container>
+          <div className="face front ">
             <a
               href="https://andreasvidal.github.io/SCL019-card-validation/src/index.html"
-              target="_blank" 
+              target="_blank"
+              rel="noreferrer"
             >
               <img
                 src={CardValidation}
@@ -23,17 +24,17 @@ export const ShowProyects = () => {
               />
             </a>
             <TitleCard>Card Validation</TitleCard>
-        </div>
-        <div className="face back">
+          </div>
+          <div className="face back">
             <h2>Card Validation - Refuge Pet</h2>
             <p>
               En este proyectose trata de construir una aplicación web que
               permita a un usuario validar el número de una tarjeta de crédito.
               Tecnologías utilizadas HTML, CSS y JavaScript como tecnologías.
             </p>
-        </div>
-      </Container>
-    </Main>
+          </div>
+        </Container>
+      </Main>
     </>
   );
 };
