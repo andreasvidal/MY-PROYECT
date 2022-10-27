@@ -108,7 +108,7 @@ const TitleCard = styled.h2`
 color: #ae8cfa;
 `
 
-const Description = styled.p`
+/*const Description = styled.p`
 color: #ae8cfa;
 background: #000000;
-`
+`*/
