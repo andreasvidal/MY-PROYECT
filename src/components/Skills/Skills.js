@@ -9,6 +9,7 @@ import { SiStyledcomponents } from "react-icons/si";
 import { SiReactrouter } from "react-icons/si";
 import { SiFirebase } from "react-icons/si";
 import { SiGit } from "react-icons/si";
+import { SiNuxtdotjs } from "react-icons/si";
 import styled from 'styled-components'
 
 export const Skills = () => {
@@ -17,45 +18,47 @@ export const Skills = () => {
             <IconGrpup>
                 <TitleSkill>SKILLS</TitleSkill>
                 <Icon>
-                <SiJavascript />
-            <TitleP>Javascript</TitleP>
+                    <SiJavascript />
+                    <TitleP>Javascript</TitleP>
                 </Icon>
                 <Icon>
-                <SiCss3 />
-            <TitleP>CSS</TitleP>
+                    <SiCss3 />
+                    <TitleP>CSS</TitleP>
                 </Icon>
                 <Icon>
-                <SiHtml5 />
-            <TitleP>HTML</TitleP>
+                    <SiHtml5 />
+                    <TitleP>HTML</TitleP>
                 </Icon>
                 <Icon>
-                <SiReact />
-            <TitleP>React JS</TitleP>
+                    <SiReact />
+                    <TitleP>React JS</TitleP>
                 </Icon>
                 <Icon>
-                <SiFirebase />
-            <TitleP>Firebase</TitleP>
+                    <SiFirebase />
+                    <TitleP>Firebase</TitleP>
                 </Icon>
                 <Icon>
-                <SiReactrouter />
-            <TitleP>React Router</TitleP>
+                    <SiReactrouter />
+                    <TitleP>React Router</TitleP>
                 </Icon>
                 <Icon>
-                <SiGit />
-                <TitleP>GitHub</TitleP>
+                    <SiGit />
+                    <TitleP>GitHub</TitleP>
                 </Icon>
                 <Icon>
-                <SiFigma />
-            <TitleP>Figma</TitleP>
+                    <SiFigma />
+                    <TitleP>Figma</TitleP>
                 </Icon>
                 <Icon>
-                <SiStyledcomponents />
-            <TitleP>Styled Components</TitleP>
+                    <SiStyledcomponents />
+                    <TitleP>Styled Components</TitleP>
                 </Icon>
                 <Icon>
-                <SiNetlify />
-            <TitleP>Netlify</TitleP>
+                    <SiNetlify />
+                    <TitleP>Netlify</TitleP>
                 </Icon>
+                <Icon><SiNuxtdotjs /><TitleP>NuxsJs</TitleP></Icon>
+
             </IconGrpup>
         </IconCont>
     )
