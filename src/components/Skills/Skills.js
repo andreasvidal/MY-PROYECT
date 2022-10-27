@@ -57,8 +57,10 @@ export const Skills = () => {
                     <SiNetlify />
                     <TitleP>Netlify</TitleP>
                 </Icon>
-                <Icon><SiNuxtdotjs /><TitleP>NuxsJs</TitleP></Icon>
-
+                <Icon>
+                    <SiNuxtdotjs />
+                    <TitleP>NuxsJs</TitleP>
+                </Icon>
             </IconGrpup>
         </IconCont>
     )
