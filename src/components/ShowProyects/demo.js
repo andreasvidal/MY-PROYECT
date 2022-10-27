@@ -1,4 +1,4 @@
-import {Skills} from "../Skills/Skills"
+import { Skills } from "../Skills/Skills"
 import Rymt1 from "../../assets/rym/rymt1.jpg";
 import styled from "styled-components";
 import CardValidation from "../../assets/cardv/refuge.jpg";
@@ -7,62 +7,62 @@ import BurgerQ from "../../assets/bq/burger-queen.png"
 
 export const ShowProyects = () => {
   return (
-      <main>
-      <Skills/>
-          <H2Proyects> Mis proyectos</H2Proyects>
-            <ContainerProyect>
-                <Proyect>
-                    <AncProyect 
-                    href="https://andreasvidal.github.io/SCL019-card-validation/src/index.html"
-                    target="_blank">
-                    <ImgProyect src={CardValidation} alt="img proyecto rym" />
-                    <H3Proyects>Card Validation 
-                    <Description>
-                    En este proyectose trata de construir una aplicación web que permita a
-                    un usuario validar el número de una tarjeta de crédito. Tecnologías utilizadas HTML, CSS y
-            JavaScript como tecnologías.
-            </Description>
-        </H3Proyects>
-        </AncProyect>
-          </Proyect>
-          <Proyect>
-                    <AncProyect 
-                    href="https://andreasvidal.github.io/SCL019-data-lovers/"
-                    target="_blank">
-                    <ImgProyect src={Rymt1} alt="img proyecto rym" />
-                    <H3Proyects>Card Validation 
-                    <Description>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi voluptate incidunt impedit velit suscipit est totam accusantium aut consequuntur provident laboriosam ut at delectus consequatur a quo, nesciunt expedita molestiae.
-            </Description>
-        </H3Proyects>
-        </AncProyect>
-          </Proyect>
-          <Proyect>
-                    <AncProyect 
-                    href="https://andreasvidal.github.io/SCL019-social-network/src/#/home"
-                    target="_blank">
-                    <ImgProyect src={SocialNet} alt="img proyecto rym" />
-                    <H3Proyects>Card Validation 
-                    <Description>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non nobis temporibus eius dolore placeat reprehenderit voluptatum quo, aut debitis cum dolor velit rem, minima, eveniet eum. Similique nemo perferendis sequi.
-            </Description>
-        </H3Proyects>
-        </AncProyect>
-          </Proyect>
-          <Proyect>
-                    <AncProyect 
-                    href="https://spacegrill.netlify.app/"
-                    target="_blank">
-                    <ImgProyect src={BurgerQ} alt="img proyecto rym" />
-                    <H3Proyects>Card Validation 
-                    <Description>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, ducimus alias! Libero impedit earum debitis sint, omnis minima saepe animi suscipit illo at porro, quas doloremque nulla architecto totam. Doloribus.
-            </Description>
-        </H3Proyects>
-        </AncProyect>
-          </Proyect>
-          </ContainerProyect>
-      </main>
+    <main>
+      <Skills />
+      <H2Proyects> Mis proyectos</H2Proyects>
+      <ContainerProyect>
+        <Proyect>
+          <AncProyect
+            href="https://andreasvidal.github.io/SCL019-card-validation/src/index.html"
+            target="_blank">
+            <ImgProyect src={CardValidation} alt="img proyecto rym" />
+            <H3Proyects>Card Validation
+              <Description>
+                En este proyectose trata de construir una aplicación web que permita a
+                un usuario validar el número de una tarjeta de crédito. Tecnologías utilizadas HTML, CSS y
+                JavaScript como tecnologías.
+              </Description>
+            </H3Proyects>
+          </AncProyect>
+        </Proyect>
+        <Proyect>
+          <AncProyect
+            href="https://andreasvidal.github.io/SCL019-data-lovers/"
+            target="_blank">
+            <ImgProyect src={Rymt1} alt="img proyecto rym" />
+            <H3Proyects>Data Lovers
+              <Description>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi voluptate incidunt impedit velit suscipit est totam accusantium aut consequuntur provident laboriosam ut at delectus consequatur a quo, nesciunt expedita molestiae.
+              </Description>
+            </H3Proyects>
+          </AncProyect>
+        </Proyect>
+        <Proyect>
+          <AncProyect
+            href="https://andreasvidal.github.io/SCL019-social-network/src/#/home"
+            target="_blank">
+            <ImgProyect src={SocialNet} alt="img proyecto rym" />
+            <H3Proyects>Social Network
+              <Description>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non nobis temporibus eius dolore placeat reprehenderit voluptatum quo, aut debitis cum dolor velit rem, minima, eveniet eum. Similique nemo perferendis sequi.
+              </Description>
+            </H3Proyects>
+          </AncProyect>
+        </Proyect>
+        <Proyect>
+          <AncProyect
+            href="https://spacegrill.netlify.app/"
+            target="_blank">
+            <ImgProyect src={BurgerQ} alt="img proyecto rym" />
+            <H3Proyects>Burger Queen
+              <Description>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, ducimus alias! Libero impedit earum debitis sint, omnis minima saepe animi suscipit illo at porro, quas doloremque nulla architecto totam. Doloribus.
+              </Description>
+            </H3Proyects>
+          </AncProyect>
+        </Proyect>
+      </ContainerProyect>
+    </main>
   );
 };
 
