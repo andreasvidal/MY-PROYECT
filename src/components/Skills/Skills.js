@@ -59,7 +59,7 @@ export const Skills = () => {
                 </Icon>
                 <Icon>
                     <SiNuxtdotjs />
-                    <TitleP>NuxsJs</TitleP>
+                    <TitleP>NuxtJs</TitleP>
                 </Icon>
             </IconGrpup>
         </IconCont>
