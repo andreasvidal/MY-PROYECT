@@ -1,51 +1,54 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 import logo from "../assets/logos/logo.png";
 import { IoLogoLinkedin, IoLogoGithub, IoLogoWhatsapp } from "react-icons/io";
 
 export const FooterCommons = () => {
-    return(
-        <Footer>
-        <div>
+  return (
+    <Footer>
+      <div>
         <Logo src={logo} alt="logo-footer" />
-        </div>
-        <IconsContainer>
-            <Icons>
-                <AnIcon href="https://github.com/andreasvidal" target="_blank">
-                <IoLogoGithub/>
-                </AnIcon>
-            </Icons>
-            <Icons>
-                <AnIcon href="https://www.linkedin.com/in/m-andrea-salas" target="_blank">
-                <IoLogoLinkedin/>
-                </AnIcon>
-                </Icons>
-            <Icons>
-                <AnIcon href='https://api.whatsapp.com/send?phone=+56975712678&text=Hola no dudes en escribirme. Saludos!'>
-                <IoLogoWhatsapp/></AnIcon>
-            </Icons>
-        </IconsContainer>
-        </Footer>
-    )
-}
+      </div>
+      <IconsContainer>
+        <Icons>
+          <AnIcon href="https://github.com/andreasvidal" target="_blank">
+            <IoLogoGithub />
+          </AnIcon>
+        </Icons>
+        <Icons>
+          <AnIcon
+            href="https://www.linkedin.com/in/m-andrea-salas"
+            target="_blank"
+          >
+            <IoLogoLinkedin />
+          </AnIcon>
+        </Icons>
+        <Icons>
+          <AnIcon href="https://api.whatsapp.com/send?phone=+56975712678&text=Hola no dudes en escribirme. Saludos!">
+            <IoLogoWhatsapp />
+          </AnIcon>
+        </Icons>
+      </IconsContainer>
+    </Footer>
+  );
+};
 
 const Footer = styled.footer`
-display: flex;
-flex-wrap: wrap;
-align-content: center;
-justify-content: space-between;
-align-items: center;
-position: relative;
-background: #ae8cfa;
-border-top: 0.1rem solid #0D1C29;
-width: auto;
-margin-top: 6rem;
-padding: 1rem 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background: #202c33;
+  border-top: 0.1rem solid #202c33;
+  width: auto;
+  margin-top: 6rem;
+  padding: 1rem 1.5rem;
+`;
 
- `;
-
- const Logo = styled.img`
+const Logo = styled.img`
  width: 3.5rem;
- border: 0.3rem outset #0d1c2930;
+ border: 0.3rem outset #202c33;
  border-radius: 50%;
  animation-name:rotate;
     animation-duration: 5s;
@@ -61,21 +64,21 @@ padding: 1rem 1.5rem;
 `;
 
 const AnIcon = styled.a`
-font-size: 2.125rem;
-color: #0D1C29;
-padding: 1rem;
+  font-size: 2.125rem;
+  color: #63cb70;
+  padding: 1rem;
 `;
 
 const IconsContainer = styled.div`
-display: flex;
-align-content: center;
-margin: 0;
-`
+  display: flex;
+  align-content: center;
+  margin: 0;
+`;
 const Icons = styled.div`
-color: #0D1C29;
-&:hover {
+  color: #63cb70;
+  &:hover {
     transition: 1s;
     cursor: pointer;
     transform: scale(1.15);
-}
-`
+  }
+`;
